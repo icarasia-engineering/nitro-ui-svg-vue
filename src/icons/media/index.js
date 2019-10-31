@@ -1,0 +1,10 @@
+/* eslint-disable */
+require('./camera')
+require('./device-desktop')
+require('./device-phone')
+require('./device-tablet')
+require('./folder')
+require('./photo')
+require('./play')
+require('./video-camera')
+require('./video')
