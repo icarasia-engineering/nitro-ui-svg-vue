@@ -1,0 +1,11 @@
+/* eslint-disable */
+require('./blur')
+require('./crop')
+require('./flip-horizontal')
+require('./flip-vertical')
+require('./move')
+require('./rotate-left')
+require('./rotate-right')
+require('./rotate')
+require('./zoom-in')
+require('./zoom-out')

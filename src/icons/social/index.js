@@ -1,0 +1,12 @@
+/* eslint-disable */
+require('./android')
+require('./apple')
+require('./social-facebook')
+require('./social-googleplus')
+require('./social-instagram')
+require('./social-line-alt')
+require('./social-line')
+require('./social-rss')
+require('./social-twitter')
+require('./social-whatsapp')
+require('./social-youtube')

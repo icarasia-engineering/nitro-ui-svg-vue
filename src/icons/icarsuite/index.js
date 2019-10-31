@@ -1,0 +1,10 @@
+/* eslint-disable */
+require('./apps-2')
+require('./arrow-up-rounded')
+require('./camera-2')
+require('./icarcoins-color')
+require('./icarcoins')
+require('./language')
+require('./link')
+require('./off')
+require('./setting-2')
