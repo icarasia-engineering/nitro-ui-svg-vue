@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <nitro-icon v-if="showCar" name="dealerships/car" size="xl" fill color="#FFDDAA"></nitro-icon>
+    <nitro-icon v-if="showCar" name="dealerships/car" size="xl" fill color="#FFDDAA" @click="showCar = false"></nitro-icon>
     <button @click="showCar = !showCar">Toggle Car Icon</button>
   </div>
 </template>

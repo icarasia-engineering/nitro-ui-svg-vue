@@ -5,7 +5,9 @@
       [`${$options.name}--${size}`]: size,
     }"
             :name="name"
-            :color="color">
+            :color="color"
+            @click.native="$emit('click')"
+    >
     </svgicon>
 </template>
 
