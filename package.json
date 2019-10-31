@@ -2,6 +2,13 @@
   "name": "@nitro-ui/svg-icons-vue",
   "author": "Ahmad AlKhoudary",
   "version": "0.1.1",
+  "description": "Nitro UI SVG icons for Vue framework",
+  "license": "MIT",
+  "homepage": "https://github.com/icarasia-engineering/nitro-ui-svg-vue#readme",
+  "repository": "https://github.com/icarasia-engineering/nitro-ui-svg-vue",
+  "bugs": {
+    "url": "https://github.com/icarasia-engineering/nitro-ui-svg-vue/issues"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
