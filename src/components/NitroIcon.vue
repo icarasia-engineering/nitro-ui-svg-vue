@@ -1,18 +1,24 @@
 <template>
     <svgicon
             :class="{
-      [$options.name]: true,
-      [`${$options.name}--${size}`]: size,
-    }"
+              [$options.name]: true,
+              [`icon-svg--${size}`]: size,
+              [`icon-svg--${color}`]: color,
+              'icon-svg--inline': inline,
+            }"
+            class="icon-svg"
             :name="name"
-            :color="color"
+            :color="originalColor ? '' : color"
             @click.native="$emit('click')"
+            :original="originalColor"
     >
     </svgicon>
 </template>
 
 <script>
     import "../icons"
+    import "@nitro-ui/element-svg-icon";
+
     export default {
         name: 'NitroIcon',
         props: {
@@ -22,8 +28,15 @@
             },
             color: {
                 color: String,
-                default: '',
-                required: false
+                default: null
+            },
+            originalColor: {
+                type: Boolean,
+                default: false
+            },
+            inline: {
+                type: Boolean,
+                default: false
             },
             size: {
                 type: String,
@@ -34,36 +47,6 @@
 
 <style>
     .NitroIcon {
-        display: inline-block;
-        height: 1em;
-        color: inherit;
         vertical-align: middle;
-        fill: none;
-        stroke: currentColor;
-    }
-
-    .NitroIcon--fill {
-        fill: currentColor;
-        stroke: none;
-    }
-
-    .NitroIcon--xs {
-        height: 1em;
-    }
-
-    .NitroIcon--s {
-        height: 1em;
-    }
-
-    .NitroIcon--m {
-        height: 2em;
-    }
-
-    .NitroIcon--l {
-        height: 3em;
-    }
-
-    .NitroIcon--xl {
-        height: 5em;
     }
 </style>
