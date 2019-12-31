@@ -17,7 +17,7 @@
     "svg": "vsvg -s ./node_modules/@nitro-ui/svg-icons/src -t ./src/icons"
   },
   "dependencies": {
-    "@nitro-ui/element-svg-icon": "^1.0.1",
+    "@nitro-ui/element-svg-icon": "^1.0.10",
     "@nitro-ui/svg-icons": "^1.0.0-alpha.0",
     "core-js": "^3.3.2",
     "svgo": "1.3.0",
