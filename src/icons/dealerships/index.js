@@ -1,4 +1,5 @@
 /* eslint-disable */
+require('./applicator')
 require('./blur-outline')
 require('./brakes')
 require('./bulb')
