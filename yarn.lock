@@ -978,10 +978,10 @@
   resolved "https://registry.yarnpkg.com/@nitro-ui/svg-icons/-/svg-icons-1.0.10.tgz#3ce683ad10c0b42dd6ecb17380941d5b31b54cdf"
   integrity sha512-7TcMelUIjEry1sPOFqVnX159n2jEZxNiDC9SV2QwmwJ8347OpzNER3BerBb9PJEyVY3/CBLnqwoBB9oRxkyG4Q==
 
-"@nitro-ui/svg-icons@^1.0.12":
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/@nitro-ui/svg-icons/-/svg-icons-1.0.12.tgz#bd16b9b8f7630ec353efff858c4c125daf28021a"
-  integrity sha512-uL1uNQCw2K2K8VM14QkyAoQJGjwt3dr6kath9QS1Ffm1s/5CiX+Pa5F2VI8pn29sTToNkVrX8PISQWt9f6qhBw==
+"@nitro-ui/svg-icons@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@nitro-ui/svg-icons/-/svg-icons-1.0.13.tgz#905236c396b2d247e8eafb3e92e7b9c5b2549f16"
+  integrity sha512-whhCBW7Fzj5S0Yj4cVHj7ATdQj2jQzmQWjDOxatDIOMyKS8Oo8/djAqcqDhVPyQjmZarTLmqkMK1wSDugE/q7w==
 
 "@nodelib/fs.stat@^1.1.2":
   version "1.1.3"
